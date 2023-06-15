@@ -1,4 +1,4 @@
-import * as Yup from "yup";
+gitimport * as Yup from "yup";
 
 export const initialValues = () => {
   return {
@@ -13,7 +13,7 @@ export const validationSchema = () => {
       .email("Email es obligatorio")
       .required("Campo obligatorio"),
 
-    password: Yup.string().required("La contraseña es obligatoria"),
+    password: Yup.string().required("La contraseñaaaaa es obligatoria"),
     confirmPasswor: Yup.string()
       .required("Contraseña obligatoria")
       .oneOf([Yup.ref("password")], "Las contraseñas no coinciden"),
